@@ -1,0 +1,18 @@
+<div class="container">
+  <img class="img-style" src="{{ imgSrc }}" />
+  <span class="common title" [innerHtml]="title | safeHtml"></span>
+  <br />
+  <span
+    class="common content"
+    [innerHtml]="contentDescription | safeHtml"
+  ></span>
+  <br />
+  <span
+    *ngIf="bottomDescription"
+    class="tag tag-common tag-05"
+    [innerHtml]="bottomDescription | safeHtml"
+  ></span>
+
+  <!-- <span class="common bottom">{{ bottomDescription }}</span> -->
+</div>
+<img src="assets/icon/right.svg" class="right-icon" />

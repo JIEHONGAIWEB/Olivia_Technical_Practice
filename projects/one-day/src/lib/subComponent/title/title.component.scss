@@ -1,0 +1,22 @@
+$purpleColor: #4933b8;
+:host {
+  width: 100%;
+  height: 100%;
+  .common {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    border-bottom: 1px solid #103bda7a;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 34px;
+    color: black;
+    font-weight: 600;
+  }
+  .icon-style {
+    width: 60px;
+    height: 60px;
+  }
+}
