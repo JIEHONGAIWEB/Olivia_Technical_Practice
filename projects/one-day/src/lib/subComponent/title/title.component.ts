@@ -9,6 +9,7 @@ import { InvokeFunctionExpr } from '@angular/compiler';
 export class TitleComponent implements OnInit {
   @Input() title: string | undefined;
   @Input() iconUrl: string | undefined;
+  @Input() iconUrl2: string | undefined;
   @Input() iconDescription: string | undefined;
 
   constructor() {}

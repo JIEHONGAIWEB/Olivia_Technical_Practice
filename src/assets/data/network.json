@@ -1,6 +1,7 @@
 {
   "title": "问题定义:[传输层-TCP]",
   "iconUrl": "assets/icon/dandelion.svg",
+  "iconUrl2": "assets/icon/compman.gif",
   "iconDescription": "它是我的‘飘飘燃~’",
   "description": "TCP来龙去脉",
   "subContent": [
@@ -63,29 +64,24 @@
           "bottomDescription": "握手、等待、重传"
         },
         {
-          "title": "(2) 流量控制",
-          "contentDescription": "明确需要解决的问题是什么",
-          "bottomDescription": "你说的对"
+          "title": "(2) 流量",
+          "contentDescription": "目的：发送方别太快，让接收方，`来得及`接。<br/>1. 窗口 。<br/>2. 快慢",
+          "bottomDescription": "别太快"
         },
         {
           "title": "(3) 堵塞",
-          "contentDescription": "明确需要解决的问题是什么",
-          "bottomDescription": "你说的对"
+          "contentDescription": "1. 什么情况下，会出现拥塞。。<br/>2. 控制",
+          "bottomDescription": "预防"
         }
       ]
     },
     {
-      "subtitle": "4 主管做什么",
+      "subtitle": "4 主能做什么",
       "card-content": [
         {
-          "title": "(1) 连接从无到有",
-          "contentDescription": "明确需要解决的问题是什么",
-          "bottomDescription": "你说的对"
-        },
-        {
-          "title": "(2) 连接从有到无",
-          "contentDescription": "明确需要解决的问题是什么",
-          "bottomDescription": "你说的对"
+          "title": "(1) 连接",
+          "contentDescription": "1. 建立。<br/>2. 结束。<br/>3. 状态展示",
+          "bottomDescription": "过程"
         }
       ]
     }

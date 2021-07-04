@@ -9,6 +9,7 @@ export class OneDayComponent implements OnInit {
   content = {
     title: '',
     iconUrl: '',
+    iconUrl2: '',
     description: '',
     iconDescription: '',
     subContent: [
