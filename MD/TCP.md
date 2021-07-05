@@ -10,7 +10,7 @@
 
 ---
 
-<img src="/Users/oliva/Downloads/compman.gif" alt="蒲公英" style="zoom: 50%;float:left;" />
+<img src="http://www.clipartbest.com/cliparts/LiK/7Mn/LiK7MnpXT.gif" alt="蒲公英" style="zoom: 50%;float:left;" />
 
 ---
 
