@@ -10,7 +10,7 @@
 
 ---
 
-<img src="/Users/oliva/Downloads/compman.gif" alt="蒲公英" style="zoom: 50%;float:left;" />
+<img src="http://www.clipartbest.com/cliparts/LiK/7Mn/LiK7MnpXT.gif" alt="蒲公英" style="zoom: 50%;float:left;" />
 
 ---
 
@@ -80,7 +80,9 @@
   1. 尽最大努力。 
   2. 虚拟。
      - 间接交付 
+       - a-b-c-b-e-done
      - 直接交付
+       - a-b-done
   3. 直、间。
   4. 唯一地址。
      - 分类地址
@@ -95,20 +97,13 @@
 
 - <span style="background-color:yellow"><u>功能4点</u></span>
 
-  1. 可靠
-  2. 流量
-  3. 拥塞
-  4. 连接
+  1. 
 
 ### 3 能干什么
 
 1. 生地址
 
-   - 3次握手
-
-   - 超时重传
-
-   - 停止等待
+   - 
 
 2. 找地址
 
@@ -125,13 +120,13 @@
 
 4. 虚拟
 
+   1. 什么是虚拟
+   2. 
+
 ### 4 主能做什么
 
 ##### 1. 连接
 
-1. 建立
+1. 
 
-2. 结束
-
-3. 状态展示
 

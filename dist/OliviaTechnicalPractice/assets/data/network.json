@@ -1,0 +1,89 @@
+{
+  "title": "问题定义:[传输层-TCP]",
+  "iconUrl": "assets/icon/dandelion.svg",
+  "iconUrl2": "assets/icon/compman.gif",
+  "iconDescription": "它是我的‘飘飘燃~’",
+  "description": "TCP来龙去脉",
+  "subContent": [
+    {
+      "subtitle": "1 产生",
+      "card-content": [
+        {
+          "title": "(1) 谁创造了它？ ",
+          "contentDescription": "鲍勃·卡恩(<i style='color:black;background:yellow;font-weight:600;'>Bob</i> Kahn)，<br/>生于美国纽约州纽约市布鲁克林区，<br/>发明了TCP协议，<br/>并与文特·瑟夫一起发明了IP协议;<br/>这两个协议成为互联网存在基石。",
+          "bottomDescription": "鲍勃·卡恩(Bob Kahn)",
+          "imgSrc": "https://img0.baidu.com/it/u=3368792024,2623284014&fm=26&fmt=auto&gp=0.jpg"
+        },
+        {
+          "title": "(1.1) 又一位父亲 ",
+          "contentDescription": "文特·瑟夫<i style='color:black;background:yellow;font-weight:600;'>Vinton</i>，<br/>是20世纪70年代创建互联网的元老之一，<br/>1943年6月23日出生于美国洛杉矶。<br/>文特·瑟夫现任谷歌公司副总裁兼首席互联网专家。<br/>他和罗伯特·卡恩合作设计了TCP/IP协议及互联网的基础体系结构。<br/>许多人把瑟夫看作“互联网之父”之 一。<br/>2004年，卡恩和瑟夫因为他们在互联网协议方面所取得的杰出成就而荣膺美国计算机学会（ACM）颁发的图灵奖。",
+          "bottomDescription": "文特·瑟夫-Vinton Gray Cerf",
+          "imgSrc": "https://iknow-pic.cdn.bcebos.com/b21c8701a18b87d66c105ddf000828381e30fda4?x-bce-process%3Dimage%2Fresize%2Cm_lfit%2Cw_600%2Ch_800%2Climit_1%2Fquality%2Cq_85%2Fformat%2Cf_jpg"
+        },
+        {
+          "title": "(2) 什么时候出来的？ ",
+          "contentDescription": "开发出来是在1973年，而真正的大面积应用是在<i style='color:black;background:yellow;font-weight:600;'>1983</i>年"
+        },
+        {
+          "title": "(3) 为什么创造它呢？ ",
+          "contentDescription": "把两台计算机连在一起，只是迈出了建立互联网的一小步。人们很快发现，如果要把更多的不同型号的计算机，通过不同规格的网络连接在一起，还要让它们能<span style='background-color:yellow'><u>共享内容</u></span>，就非得发明一套更先进的技术不可",
+          "bottomDescription": "连接更多的电脑、&nbsp;共享数据"
+        }
+      ]
+    },
+    {
+      "subtitle": "2 它是什么",
+      "card-content": [
+        {
+          "title": "(1) TCP",
+          "contentDescription": "传输控制协议TCP（TransmissionControlProtocol)",
+          "bottomDescription": "`协议`&nbsp;&nbsp;&nbsp;&nbsp;`规则`"
+        },
+        {
+          "title": "(2) 定义",
+          "contentDescription": "TCP是一个协议"
+        },
+        {
+          "title": "(3) <span style='background-color:yellow'><u>特征5点</u></span>",
+          "contentDescription": "1. 面向连接。<br/>  2. 端到端。<br/>  3. 可靠的。 <br/> 4. 全双工。<br/> 5. 字节流。",
+          "bottomDescription": "5点"
+        },
+        {
+          "title": "(4) <span style='background-color:yellow'><u>功能4点</u></span>",
+          "contentDescription": "1. 可靠。<br/> 2. 流量。<br/> 3. 拥塞。<br/> 4. 连接。",
+          "bottomDescription": "4点"
+        }
+      ]
+    },
+    {
+      "subtitle": "3 能干什么",
+      "card-content": [
+        {
+          "title": "(1) 可靠",
+          "contentDescription": "1.3次握手。<br/> 2.超时重传。<br/> 3.停止等待。<br/>",
+          "bottomDescription": "握手、等待、重传"
+        },
+        {
+          "title": "(2) 流量",
+          "contentDescription": "目的：发送方别太快，让接收方，`来得及`接。<br/>1. 窗口 。<br/>2. 快慢",
+          "bottomDescription": "别太快"
+        },
+        {
+          "title": "(3) 堵塞",
+          "contentDescription": "1. 什么情况下，会出现拥塞。。<br/>2. 控制",
+          "bottomDescription": "预防"
+        }
+      ]
+    },
+    {
+      "subtitle": "4 主能做什么",
+      "card-content": [
+        {
+          "title": "(1) 连接",
+          "contentDescription": "1. 建立。<br/>2. 结束。<br/>3. 状态展示",
+          "bottomDescription": "过程"
+        }
+      ]
+    }
+  ]
+}
