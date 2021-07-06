@@ -127,6 +127,10 @@
 
 ##### 1. 连接
 
-1. 
+##### 2. 监控状态-ICMP
 
+![image-20210705180353964](D:\Users\jiehong.wang\AppData\Roaming\Typora\typora-user-images\image-20210705180353964.png)
 
+##### 3. Tracert
+
+![image-20210705180748837](D:\Users\jiehong.wang\AppData\Roaming\Typora\typora-user-images\image-20210705180748837.png)
