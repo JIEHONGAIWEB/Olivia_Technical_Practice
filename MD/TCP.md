@@ -98,7 +98,7 @@
 
 1. 可靠
 
-   - 3次握手
+   - 3次握手4次挥手-建立连接，释放连接
 
    - 超时重传
 
@@ -120,9 +120,15 @@
 
 ##### 1. 连接
 
-1. 建立
+###### 建立
 
-2. 结束
+​	3次握手机制
 
-3. 状态展示
+![建立连接](https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20190321%2F828442e6cdc5456aa5f1470a35cbf044.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1628133303&t=9213d9f17f91cb5f1a713f86f1560528)
+
+###### 结束
+
+<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fupload-images.jianshu.io%2Fupload_images%2F18924199-9ff6e9104125519d.jpg&refer=http%3A%2F%2Fupload-images.jianshu.io&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1628133431&t=e5264e5a3adb0c5393dfe2f14fffe6d4" alt="连接释放" style="zoom:50%;" />
+
+###### 状态展示
 
