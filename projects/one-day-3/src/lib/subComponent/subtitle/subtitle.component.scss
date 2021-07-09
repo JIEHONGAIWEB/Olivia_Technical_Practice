@@ -1,0 +1,29 @@
+$bg2Color: white;
+$color: black;
+$bgColor: yellow;
+
+:host {
+  width: 100%;
+  height: 100%;
+  .container {
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #dcdcd5;
+    background: $bg2Color;
+    color: $color;
+    font-weight: 600;
+    padding-left: 10px;
+    padding: 10px 10px;
+    span {
+      // background: $bgColor;
+      padding: 3px;
+      color: $color;
+      padding-left: 10px;
+    }
+  }
+  .style-icon {
+    height: 40px;
+    // width: 1px;
+    border-left: 3px solid #103bda7a;
+  }
+}

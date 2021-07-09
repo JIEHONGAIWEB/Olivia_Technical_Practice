@@ -1,0 +1,17 @@
+<div class="container common">
+  <img
+    pTooltip="{{ iconDescription }}"
+    *ngIf="iconUrl2"
+    [src]="iconUrl2"
+    class="icon-style"
+  />
+
+  <span>{{ title }}</span>
+
+  <img
+    pTooltip="{{ iconDescription }}"
+    *ngIf="iconUrl"
+    [src]="iconUrl"
+    class="icon-style"
+  />
+</div>

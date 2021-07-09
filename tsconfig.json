@@ -18,6 +18,12 @@
       "one-day": [
         "projects/one-day/src/index.ts"
       ],
+      "one-day-2": [
+        "projects/one-day-2/src/index.ts"
+      ],
+      "one-day-3": [
+        "projects/one-day-3/src/index.ts"
+      ],
       "page07022021": [
         "projects/page07022021/src/index.ts"
       ]

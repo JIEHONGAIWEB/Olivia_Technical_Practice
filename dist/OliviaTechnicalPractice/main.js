@@ -117,6 +117,8 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     { path: 'tt1', loadChildren: 'page07022021#Page07022021Module' },
     { path: 'tt2', loadChildren: 'one-day#OneDayModule' },
+    { path: 'tt3', loadChildren: 'one-day-2#OneDayModule' },
+    { path: 'tt4', loadChildren: 'one-day-3#OneDayModule' },
     { path: '', loadChildren: 'one-day#OneDayModule' }
 ];
 class AppRoutingModule {
@@ -164,6 +166,14 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["platformBrowser"]().boot
 
 var map = {
 	"one-day": [
+		"luKa",
+		"one-day"
+	],
+	"one-day-2": [
+		"luKa",
+		"one-day"
+	],
+	"one-day-3": [
 		"luKa",
 		"one-day"
 	],

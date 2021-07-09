@@ -12,6 +12,8 @@
   "include": [
     "src/**/*.d.ts",
     "./projects/page07022021/src/index.ts",
-    "./projects/one-day/src/index.ts"
+    "./projects/one-day/src/index.ts",
+    "./projects/one-day-2/src/index.ts",
+    "./projects/one-day-3/src/index.ts",
   ]
 }
