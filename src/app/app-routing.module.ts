@@ -6,7 +6,6 @@ const routes: Routes = [
   { path: 'tt2', loadChildren: 'one-day#OneDayModule' },
   { path: 'dd2', loadChildren: 'one-day-2#OneDayModule' },
   { path: 'dd3', loadChildren: 'one-day-3#OneDayModule' },
-  { path: '', loadChildren: 'one-day-2#OneDayModule' }
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
