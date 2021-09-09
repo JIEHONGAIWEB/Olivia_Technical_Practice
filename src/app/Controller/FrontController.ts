@@ -13,6 +13,7 @@ export class FrontController {
   private trackRequest(request: string) {
     console.log('User Request:', request);
   }
+
   public dispatchRequest(request: string) {
     this.trackRequest(request);
     if (this.isAuthenticUser()) {
