@@ -1,16 +1,15 @@
-var rotate = function (nums, k) {
-    const n = nums.length;
-    const newArr = new Array(n);
+let rotate = (arr, k) => {
+    let n = arr.length;
+    let arrNew = new Array(n);
     for (let i = 0; i < n; ++i) {
-        newArr[(i + k) % n] = nums[i];
-      console.log(333,(i + k) % n)
-    }
-    for (let i = 0; i < n; ++i) {
-        nums[i] = newArr[i];
+        arrNew[(i + k) % n] = arr[i];
     }
 
-    return nums;
-};
+    for (let i = 0; i < n; ++i) {
+        arr[i] = arrNew[i]
+    }
 
+    return arr;
+}
 let result = rotate([1, 2, 3, 4, 5, 6, 7], 3);
 console.log('result:', result)
